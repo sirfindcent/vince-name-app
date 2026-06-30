@@ -4,10 +4,12 @@ Full stack learning project to help me practice professional software developmen
 ## Folder Structure:
 ```
 vince-name-app/
-├── backend                   
-├── docs                    
-├── frontend
-└── README.md
+├── backend/                  
+├── docs/
+│   └── learning-journal.md
+├── frontend/   
+├── README.md    
+└── .gitignore
 ```
 
 ## Getting Started
