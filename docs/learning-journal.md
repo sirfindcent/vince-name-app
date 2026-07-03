@@ -78,3 +78,76 @@
   
 - **Why is a clear commit message important?**
   Clear intention of changes, automate version bumping, and generate changelogs automaticlly.
+
+## Phase 1: Console Java Foundation + IDE Mastery + Testing
+Reference: https://www.geeksforgeeks.org/java/java-main-method-public-static-void-main-string-args/
+
+### Capability 1.1: Basic Console Application
+- **What is a Java console application?**
+  Java application where we can input something in the command line and it outputs something in the command line.
+
+- **What is the `main` method?**
+  JVM looks specifically for a properly defined main() method to start execution.
+
+- **Why is `public static void main(String[] args)` important?**
+ - `public` - Access modifier. Ensure that the method can be accesed globally.
+ - `static` - Keyword. JVM can invoke it without 
+ - `void` - Return type. Return nothing.
+ - `main` - name of the Java main method. This is an identifier which means the JVM will look for this method name.
+ - `String[] args`: `String[]` means Array of String and `args` is the name of the array.
+
+- **What is a command-line argument?**
+  - command-line argument allows you to input something in the command-line.
+
+- **Why should I check `args.length` before using `args[0]`?**
+  If the args.length is zero, there is nothing in the input.
+---
+
+### Capability 1.2: IntelliJ Debugger
+
+- **What is a debugger?**
+
+- **What is a breakpoint?**
+
+- **Why is debugging better than only using `System.out.println`?**
+
+- **What happens when I run the program in Debug mode?**
+
+- **What is `Step Over`?**
+
+- **What is `Step Into`?**
+
+- **What is `Resume Program`?**
+  
+- **What variables did I inspect while debugging?**
+- **What did `args.length` show when I ran the program without an argument?**
+- **What did `args.length` show when I ran the program with an argument?**
+- **What did `args[0]` contain when I provided a name?**
+- **What is Evaluate Expression used for?**
+- **What is the call stack?**
+- **What did I learn from debugging the greeting program?**
+
+---
+
+### Capability 1.3: JUnit Unit Testing
+
+- **What is a unit test?**
+- **What is JUnit?**
+- **What does `@Test` mean?**
+- **What is an assertion?**
+- **Why should I test the greeting logic automatically?**
+- **What test case should check the default name?**
+- **What test case should check a provided name?**
+- **What is the difference between manual testing and automated testing?**
+- **Why is it better to separate greeting logic from printing logic?**
+- **How do automated tests help when I change code later?**
+- **What did I learn from writing tests for the greeting program?**
+
+---
+
+### Phase 1 Reflection
+
+- **What did I learn in Phase 1?**
+- **What confused me the most?**
+- **How did I solve or understand the confusing part?**
+- **What do I feel more confident about now?**
