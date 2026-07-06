@@ -154,22 +154,34 @@ Reference: https://www.jetbrains.com/help/idea/debugging-your-first-java-applica
 ### Capability 1.3: JUnit Unit Testing
 
 - **What is a unit test?**
-- **What is JUnit?**
-- **What does `@Test` mean?**
-- **What is an assertion?**
-- **Why should I test the greeting logic automatically?**
-- **What test case should check the default name?**
-- **What test case should check a provided name?**
-- **What is the difference between manual testing and automated testing?**
-- **Why is it better to separate greeting logic from printing logic?**
-- **How do automated tests help when I change code later?**
-- **What did I learn from writing tests for the greeting program?**
+  Type of test where **one invidual piece of code or unit** is being tested by itself. Unit test isolates one single piece of code and verify that piece is working correctly.
 
----
+- **What is JUnit?**
+  Java testing framework used for writing and executing unit tests for individual classes.
+
+- **What does `@Test` mean?**
+  Indicates that the class below is for testing. 
+
+- **What is an assertion?**
+    Used to validate the expected outcome of a test by comparing it with the actual result.
+
+- **Why should I test the greeting logic automatically?**
+  It helps improve code quality and reduc the effort of repeated testing.
+
+- **What is the difference between manual testing and automated testing?**
+  Verifying individual units of code without relying on automated test framework. Mainly during debugging or initial code validation.
+
+- **Why is it better to separate greeting logic from printing logic?**
+  Greeting logic can be tested separately.
+  
+- **How do automated tests help when I change code later?**
+  Help catching the mistakes early by checking that the program still gives the expected result after changes.
+
+- **What did I learn from writing tests for the greeting program?**
+  Learn how to do unit test automatically with Junit 5 frameworl.
 
 ### Phase 1 Reflection
-
-- **What did I learn in Phase 1?**
-- **What confused me the most?**
-- **How did I solve or understand the confusing part?**
 - **What do I feel more confident about now?**
+  - Explaining public static void main(String[] args)
+  - Debugging my code with IntelliJ
+  - Testing my code with IntelliJ
