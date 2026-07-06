@@ -104,28 +104,50 @@ Reference: https://www.geeksforgeeks.org/java/java-main-method-public-static-voi
 ---
 
 ### Capability 1.2: IntelliJ Debugger
+Reference: https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html#setting-breakpoints
 
-- **What is a debugger?**
+- **What is a debugging?**
+ Debugging is the process of detecing and correcting errors in a program. With debugger, you can pause the execution at a specified point, and analyzing the program state.
 
 - **What is a breakpoint?**
+  marker in specific line so when the program reaches the line, the program will be paused and we can examine what is happening.
 
 - **Why is debugging better than only using `System.out.println`?**
+  Less repetitive, better integrations with IDEs, and precise.
 
 - **What happens when I run the program in Debug mode?**
+  The program runs normally until a breakpoint is hit. IntelliJ IDEA pauses the program, hightlight the breakpoint line, and shows the Debug tool window.
 
 - **What is `Step Over`?**
+  Run this line, the move to the next line
+
 
 - **What is `Step Into`?**
+  Go inside the method being called
+
+- **What is `Step Out`?**
+  Finish the current method and return to the place that called it
 
 - **What is `Resume Program`?**
-  
+  Continue the program until next breakpoint
+
 - **What variables did I inspect while debugging?**
+  `args`
+
 - **What did `args.length` show when I ran the program without an argument?**
-- **What did `args.length` show when I ran the program with an argument?**
+  args.length equal to 0
+
+- **What did `args.length` show when I ran the program with an argument**
+  args.length equal to 1
+
 - **What did `args[0]` contain when I provided a name?**
+  The provided name
+
 - **What is Evaluate Expression used for?**
+  Evaluate the state of an expression. To see a code's value at a specific point.
+
 - **What is the call stack?**
-- **What did I learn from debugging the greeting program?**
+  Shows the active methods that led to the current line.
 
 ---
 
