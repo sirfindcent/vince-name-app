@@ -235,15 +235,32 @@ Reference: https://www.geeksforgeeks.org/springboot/introduction-to-spring-boot/
 
 ### Capability 2.2: First GET Endpoint
 
+- **What is an API?**
+A set of rules that allows one piece of software to talk to another.
+
 - **What is a REST API?**
+API that allows client and server to communicate over HTTP
   
 - **What is an endpoint?**
+Specific digital address (URL) where client and server communicate.
+
 - **What is HTTP GET?**
+Method to retrieve a resource.
+
 - **What is `@RestController`?**
+Annotation to tell Java that code below will be a controller. Controller is code that recieves a user's request, talks to the database, and then decides what to send back.
+
 - **What is `@GetMapping`?**
+If a client sents an HTTP `GET` requests to this exact endpoint, run the code below. Mapping basically connects point A (web request) to point B (exact code).
+
 - **How does Spring know which method should handle `/api/hello`?**
+Once spring runs, it will look to controller and see if there is mapping related to the endpoint.
+
 - **What does HTTP 200 mean?**
+It means success.
+
 - **Why do I use Postman to test the endpoint?**
+Testing REST APIs by acting as a fake client and send a request to a server.
 
 ---
 
