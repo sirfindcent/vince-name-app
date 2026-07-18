@@ -185,3 +185,94 @@ Reference: https://www.jetbrains.com/help/idea/debugging-your-first-java-applica
   - Explaining public static void main(String[] args)
   - Debugging my code with IntelliJ
   - Testing my code with IntelliJ
+
+## Phase 2: Spring Boot REST API
+Reference: https://www.geeksforgeeks.org/springboot/introduction-to-spring-boot/
+
+### Capability 2.1: Generate and Run Spring Boot Project
+
+- **What is Enterprise application?**
+  Software system developed to meet the complex needs of large organizations.
+  
+- **What is Spring Framework?**
+  Most popular frameworks for building enterpise applications.
+
+- **What is Spring Boot?**
+  Spring framework that allows us to create spring application without any complexity in the xml configuration. It provides a production ready framework on top of Spring.
+  
+- **What is Spring Initializr?**
+  Web tool to create and customize Spring boot projects.
+
+- **What is Maven?**
+  Software to organize and build java project in shortest period of time. It's like project manager for java application.what is pom.xml
+  
+
+- **What is `pom.xml`?**
+  Main configuration file for a Maven project. Project Object Model tells everything Maven needs to know about your Java project.
+
+- **What is Spring Web?**
+  It's a module in the spring framework that allows you to build web application and REST APIs using Java. It gives Java program the ability to recieve HTTP requests and send HTTP responses back.
+
+- **What is `@SpringBootApplication`?**
+  To mark the main class of a Spring Boot application.
+
+- **What is embedded Tomcat?**
+  Allowing applications to run without external server installation. The web server (Tomcat) is included inside the Spring Boot application.
+
+- **Why does the app run on port 8080?**
+  Because spring boot default port number is 8080
+
+- **What happens when I run `./mvnw spring-boot:run`?**
+  - Maven Wrapper starts Maven
+  - Reads pom.xml
+  - Downloads dependencies
+  - Compiles Java Code
+  - Runs Spring boot plugin
+  - Starts ebedded Tomcat
+  - Application runs on port 8080
+
+---
+
+### Capability 2.2: First GET Endpoint
+
+- **What is a REST API?**
+  
+- **What is an endpoint?**
+- **What is HTTP GET?**
+- **What is `@RestController`?**
+- **What is `@GetMapping`?**
+- **How does Spring know which method should handle `/api/hello`?**
+- **What does HTTP 200 mean?**
+- **Why do I use Postman to test the endpoint?**
+
+---
+
+### Capability 2.3: Endpoint Test
+
+- **What is `@WebMvcTest`?**
+- **What is MockMvc?**
+- **Why test the endpoint automatically instead of only using Postman?**
+- **What should the test check for the GET endpoint?**
+- **What is the difference between manual API testing and automated API testing?**
+
+---
+
+### Capability 2.4: Structured JSON Response
+
+- **What is JSON?**
+- **Why do APIs usually return JSON instead of plain text?**
+- **What is a DTO?**
+- **What is Jackson?**
+- **What does serialization mean?**
+- **Why is structured response data better than plain text?**
+
+---
+
+### Capability 2.5: Query Parameter
+
+- **What is a query parameter?**
+- **What does `/api/hello?name=Alex` mean?**
+- **What is `@RequestParam`?**
+- **Why should the parameter be optional?**
+- **Why should there be a default value like `Vincent`?**
+- **What test cases should check query parameter behavior?**
