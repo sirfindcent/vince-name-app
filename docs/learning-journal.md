@@ -267,21 +267,36 @@ Testing REST APIs by acting as a fake client and send a request to a server.
 ### Capability 2.3: Endpoint Test
 
 - **What is `@WebMvcTest`?**
+  Annotation to write unit test specifically for REST Controllers. We can test our endpoints if they return the correct HTTP status codes (like 200 OK) and JSON data, without having to start up your entire application.t
+
 - **What is MockMvc?**
+  Built-in testing tool to send fake HTTP requests to REST Controllers and check their responses without starting a real web server.
+
 - **Why test the endpoint automatically instead of only using Postman?**
+  So we can test a lot of endpoints without having to send a lot requests in postman.
+  
 - **What should the test check for the GET endpoint?**
+  To check if the right users gets the exact right data in the right format.
+
 - **What is the difference between manual API testing and automated API testing?**
+  In manual api testing, you have to click buttons to send requests. In Contrast, you just need a code to test other code in automated testing.
 
 ---
 
 ### Capability 2.4: Structured JSON Response
 
 - **What is JSON?**
+
 - **Why do APIs usually return JSON instead of plain text?**
+
 - **What is a DTO?**
+
 - **What is Jackson?**
+
 - **What does serialization mean?**
+
 - **Why is structured response data better than plain text?**
+
 
 ---
 
