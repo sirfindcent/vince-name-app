@@ -286,18 +286,25 @@ Testing REST APIs by acting as a fake client and send a request to a server.
 ### Capability 2.4: Structured JSON Response
 
 - **What is JSON?**
+  Lightweight format for storing and transporting data.
 
-- **Why do APIs usually return JSON instead of plain text?**
+- **Why do APIs usually return JSON instead of plain text?** 
+  Universal compatibility, Structured, Handles Complex Data, and Lightweight.
 
 - **What is a DTO?**
+  Data Transfer Object is a design pattern to transfer data between different parts of an application. It carries information from point A to point B.
+
 
 - **What is Jackson?**
+  Popular, high performance library used to process JSON data.
 
 - **What does serialization mean?**
+  Serialization is where Jackson takes your Java object and convert it into a formatted JSON string when backend sends data to a client.
 
 - **Why is structured response data better than plain text?**
-
-
+  Computer require predictability to process information reliably.
+  
+  
 ---
 
 ### Capability 2.5: Query Parameter
