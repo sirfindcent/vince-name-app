@@ -18,6 +18,6 @@ public class GreetingControllerTest {
     public void shouldReturnGreeting() throws Exception {
         mockMvc.perform(get("/api/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello Vincent"));
+                .andExpect(content().json("{\"greeting\":\"Hello Vincent\"}"));
     }
 }

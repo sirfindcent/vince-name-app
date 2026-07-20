@@ -1,1 +1,3 @@
 /Users/vincj/coding/vince-name-app/backend/src/main/java/com/vince/backend/BackendApplication.java
+/Users/vincj/coding/vince-name-app/backend/src/main/java/com/vince/backend/controller/GreetingController.java
+/Users/vincj/coding/vince-name-app/backend/src/main/java/com/vince/backend/dto/GreetingResponse.java
