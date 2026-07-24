@@ -657,13 +657,17 @@ Testing REST APIs by acting as a fake client and send a request to a server.
 
 ### Capability 3.2 - Create Entity and Repository
 - **What does the @Entity annotation do in JPA?**
+  It indicates that the marked class represents tables in the relation database.
 
 - **Why do we need the @Id and @GeneratedValue annotations on our primary key?**
+@Id marks field as the primary key of the entity, and @GeneratedValue defines how primary key values are automatically generated.
 
 - **What does extending the JpaRepository interface provide for our application?**
+  No need to write SQL queries for common operations.
 
 - **How does Spring Data JPA know how to write the SQL queries for us?**
-
+  It has query derivation with a dynamic proxy pattern to automatically write and execute SQL queries without having to implement the repository interface by ourself.
+  
 ### Capability 3.3 - Implement Service Layer + DB-Backed GET
 - **What is the purpose of a Service layer, and why don't we just call the repository directly from the controller?**
 
