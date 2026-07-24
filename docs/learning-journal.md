@@ -638,3 +638,42 @@ Testing REST APIs by acting as a fake client and send a request to a server.
 
 - **What test cases should check query parameter behavior?**
   Test need to verify that the application handles all possible input scenarios correctly such as when Parameter is provided, missing parameter, and empty parameter.
+
+## Phase 3: Adding Persistence Layer (H2)
+
+### Capability 3.1 - Add JPA/H2 Dependencies and Configuration
+  
+- **What is JPA (Java Persistence API)?**
+  JPA allows you to save, select, and search for information in a database using regular Java code (no need raw SQL).
+  
+- **What is an in-memory database (like H2), and why use it for development instead of a real database like MySQL?**
+  An in-memory database stores all data in computer's main memory (RAM) instead of writing it to a physical hard drive. Because it lives in RAM, it is temporary (everytime you stop or restarts the application, the database vanishes) and also it is faster. In MySQL the database will survive and it is slower.
+
+- **What does spring.jpa.hibernate.ddl-auto=update do?**
+  Configuration in `application.properties` that tells Hibernate (my jpa translator) how it should handle the dataabse schema when the Spring boot application starts up.
+
+- **What is the application.properties file used for?**
+  Central control panel for configuring a Spring Boot application.
+
+### Capability 3.2 - Create Entity and Repository
+- **What does the @Entity annotation do in JPA?**
+
+- **Why do we need the @Id and @GeneratedValue annotations on our primary key?**
+
+- **What does extending the JpaRepository interface provide for our application?**
+
+- **How does Spring Data JPA know how to write the SQL queries for us?**
+
+### Capability 3.3 - Implement Service Layer + DB-Backed GET
+- **What is the purpose of a Service layer, and why don't we just call the repository directly from the controller?**
+
+- **What is constructor injection, and why is it considered the best practice over field injection?**
+
+- **What makes @DataJpaTest different from @WebMvcTest or @SpringBootTest?**
+
+### Capability 3.4 - Return Multiple Records + Collections
+- **What is the main performance difference between an ArrayList and a LinkedList?**
+
+- **How does a HashMap store data, and what is an example of when to use one?**
+
+- **What are Java Streams, and how do they make processing collections easier?**
